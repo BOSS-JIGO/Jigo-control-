@@ -3,10 +3,17 @@
     "user_name": "ALAM",
     "license_key": "JIGO-A9F2-KD83-QW7P",
     "type": "PAID",
-    "device_id": "",
     "expiry": "2025-12-31",
     "max_search": 5,
-    "search_used": 0,
+    "status": "ACTIVE"
+  },
+
+  "JIGO-USER-002": {
+    "user_name": "RAHUL",
+    "license_key": "JIGO-ZX91-LM45-QQ88",
+    "type": "PAID",
+    "expiry": "2025-11-30",
+    "max_search": 3,
     "status": "ACTIVE"
   }
 }
