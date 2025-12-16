@@ -16,4 +16,13 @@
     "max_search": 3,
     "status": "ACTIVE"
   }
+},
+"JIGO-USER-002": {
+    "user_name": "BATMAN",
+    "license_key": "JIGO-ZX21-LM45-ZQ80",
+    "type": "PAID",
+    "expiry": "2025-11-30",
+    "max_search": 3,
+    "status": "ACTIVE"
+  }
 }
