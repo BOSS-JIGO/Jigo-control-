@@ -1,27 +1,44 @@
 {
-  "JIGO-USER-001": {
-    "user_name": "ALAM",
-    "license_key": "JIGO-A9F2-KD83-QW7P",
-    "type": "PAID",
-    "expiry": "2025-12-31",
-    "max_search": 5,
-    "status": "ACTIVE"
+  "SYSTEM": {
+    "status": "ACTIVE",
+    "message": "Authorized access granted"
   },
 
-  "JIGO-USER-002": {
-    "user_name": "RAHUL",
-    "license_key": "JIGO-ZX91-LM45-QQ88",
-    "type": "PAID",
-    "expiry": "2025-11-30",
-    "max_search": 3,
-    "status": "ACTIVE"
-  },
-"JIGO-USER-003": {
-    "user_name": "BATAN",
-    "license_key": "JIGO-XN21-LM45-ZQ80",
-    "type": "PAID",
-    "expiry": "2025-12-30",
-    "max_search": 3,
-    "status": "ACTIVE"
+  "USERS": {
+    "JIGO-ADMIN-001": {
+      "owner": true,
+      "name": "JIGO",
+      "expiry": "2026-12-31",
+      "max_search": 9999,
+      "status": "ACTIVE",
+      "license_key": "JIGO-ADMIN-001"
+    },
+
+    "USER-001": {
+      "owner": false,
+      "name": "ALAM",
+      "expiry": "2025-12-31",
+      "max_search": 5,
+      "status": "ACTIVE",
+      "license_key": "JIGO-ALAM-5X92"
+    },
+
+    "USER-002": {
+      "owner": false,
+      "name": "TEST",
+      "expiry": "2025-10-01",
+      "max_search": 1,
+      "status": "BLOCKED",
+      "license_key": "JIGO-TEST-LOCK"
+    },
+
+    "USER-003": {
+      "owner": false,
+      "name": "RAHUL",
+      "expiry": "2025-11-30",
+      "max_search": 3,
+      "status": "ACTIVE",
+      "license_key": "JIGO-RAHUL-93XZ"
+    }
   }
 }
