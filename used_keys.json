@@ -1,1 +1,12 @@
-
+{
+  "JIGO-A9F2-KD83-QW7P": {
+    "user_name": "ALAM",
+    "expired_on": "2025-12-01",
+    "reason": "LIMIT_USED"
+  },
+  "JIGO-ZX91-LM45-QQ88": {
+    "user_name": "RAHUL",
+    "expired_on": "2025-11-20",
+    "reason": "MANUAL_BLOCK"
+  }
+}
