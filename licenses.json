@@ -16,11 +16,11 @@
 
     "USER-001": {
       "owner": false,
-      "name": "ALAM",
+      "name": "YUKI",
       "expiry": "2025-12-31",
-      "max_search": 3,
+      "max_search": 5,
       "status": "ACTIVE",
-      "license_key": "JIGO-ALAM-5X92"
+      "license_key": "JIGO-YUKI-5X92"
     },
 
     "USER-002": {
