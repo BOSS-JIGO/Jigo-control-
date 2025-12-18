@@ -32,7 +32,7 @@
     "USER-002": {
       "owner": false,
       "name": "TESTING",
-      "expiry": "2025-10-01",
+      "expiry": "2026-10-01",
       "max_search": 5,
       "status": "Activate",
       "license_key": "JIGO-TEST-LOCK",
