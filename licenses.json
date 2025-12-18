@@ -31,10 +31,10 @@
 
     "USER-002": {
       "owner": false,
-      "name": "TEST",
+      "name": "TESTING",
       "expiry": "2025-10-01",
-      "max_search": 1,
-      "status": "BLOCKED",
+      "max_search": 5,
+      "status": "Activate",
       "license_key": "JIGO-TEST-LOCK",
       "device_id": "",
       "reason": "MANUAL_BLOCK",
