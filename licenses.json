@@ -1,17 +1,21 @@
 {
   "SYSTEM": {
     "status": "ACTIVE",
-    "message": "Authorized access granted"
+    "message": "Authorized access granted",
+    "force_update": false,
+    "maintenance": false
   },
 
   "USERS": {
     "JIGO-ADMIN-001": {
       "owner": true,
       "name": "JIGO",
-      "expiry": "2026-12-31",
-      "max_search": 9999,
+      "expiry": "2099-12-31",
+      "max_search": -1,
       "status": "ACTIVE",
-      "license_key": "ADMIN"
+      "license_key": "ADMIN",
+      "device_id": "ANY",
+      "notes": "SUPER ADMIN – UNLIMITED ACCESS"
     },
 
     "USER-001": {
@@ -20,7 +24,9 @@
       "expiry": "2025-12-31",
       "max_search": 5,
       "status": "ACTIVE",
-      "license_key": "JIGO-ALAM-5X92"
+      "license_key": "JIGO-ALAM-5X92",
+      "device_id": "",
+      "notes": "DEVICE WILL AUTO-BIND ON FIRST USE"
     },
 
     "USER-002": {
@@ -29,7 +35,10 @@
       "expiry": "2025-10-01",
       "max_search": 1,
       "status": "BLOCKED",
-      "license_key": "JIGO-TEST-LOCK"
+      "license_key": "JIGO-TEST-LOCK",
+      "device_id": "",
+      "reason": "MANUAL_BLOCK",
+      "notes": "ACCESS PERMANENTLY DISABLED"
     },
 
     "USER-003": {
@@ -38,7 +47,9 @@
       "expiry": "2025-11-30",
       "max_search": 3,
       "status": "ACTIVE",
-      "license_key": "JIGO-RAHUL-93XZ"
+      "license_key": "JIGO-RAHUL-93XZ",
+      "device_id": "",
+      "notes": "STANDARD USER"
     }
   }
 }
