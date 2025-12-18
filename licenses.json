@@ -34,7 +34,7 @@
       "name": "TESTING",
       "expiry": "2026-10-01",
       "max_search": 5,
-      "status": "Activate",
+      "status": "ACTIVE",
       "license_key": "JIGO-TEST-LOCK",
       "device_id": "",
       "reason": "MANUAL_BLOCK",
