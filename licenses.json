@@ -36,7 +36,7 @@
       "max_search": 5,
       "status": "ACTIVE",
       "license_key": "JIGO-TEST-LOCK",
-      "device_id": "308ed4b7f8d8a06a738ff36f61c770804d04b61ac9cbff2b51bd38519dd57a4",
+      "device_id": "",
       "reason": "MANUAL_BLOCK",
       "notes": "ACCESS PERMANENTLY DISABLED"
     },
