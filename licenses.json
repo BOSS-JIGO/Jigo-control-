@@ -32,13 +32,13 @@
     "USER-002": {
       "owner": false,
       "name": "MUZAIN",
-      "expiry": "2026-10-01",
+      "expiry": "2025-12-31",
       "max_search": 10,
       "status": "ACTIVE",
       "license_key": "JIGO-MUZAIN-0X9Y",
       "device_id": "",
-      "reason": "MANUAL_BLOCK",
-      "notes": "ACCESS PERMANENTLY DISABLED"
+      "reason": "MANUAL_ACCESS",
+      "notes": "ACCESS PERMITTED"
     },
 
     "USER-003": {
