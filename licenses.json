@@ -31,11 +31,11 @@
 
     "USER-002": {
       "owner": false,
-      "name": "TESTING",
+      "name": "MUZAIN",
       "expiry": "2026-10-01",
-      "max_search": 5,
+      "max_search": 10,
       "status": "ACTIVE",
-      "license_key": "JIGO-TEST-LOCK",
+      "license_key": "JIGO-MUZAIN-0X9Y",
       "device_id": "",
       "reason": "MANUAL_BLOCK",
       "notes": "ACCESS PERMANENTLY DISABLED"
