@@ -10,7 +10,7 @@
     "JIGO-ADMIN-001": {
       "owner": true,
       "name": "JIGO",
-      "expiry": "2024-12-31",
+      "expiry": "2099-12-31",
       "max_search": -1,
       "status": "ACTIVE",
       "license_key": "ADMIN",
