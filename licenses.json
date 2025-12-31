@@ -21,7 +21,7 @@
     "USER-001": {
       "owner": false,
       "name": "ALAM",
-      "expiry": "2025-12-31",
+      "expiry": "2099-12-31",
       "max_search": 5,
       "status": "ACTIVE",
       "license_key": "@speed",
