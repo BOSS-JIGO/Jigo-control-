@@ -2,7 +2,7 @@
   "SYSTEM": {
     "status": "ACTIVE",
     "message": "Authorized access granted",
-    "force_update": ACTIVE,
+    "force_update": false,
     "maintenance": false
   },
 
