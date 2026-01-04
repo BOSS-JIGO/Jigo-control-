@@ -2,8 +2,8 @@
   "SYSTEM": {
     "status": "ACTIVE",
     "message": "Authorized access granted",
-    "force_update": false,
-    "maintenance": ACTIVE
+    "force_update": ACTIVE,
+    "maintenance": false
   },
 
   "USERS": {
