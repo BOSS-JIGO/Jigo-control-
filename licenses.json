@@ -1,6 +1,6 @@
 {
   "SYSTEM": {
-    "status": "ACTIVE",
+    "status": "false",
     "message": "Authorized access granted",
     "force_update": false,
     "maintenance": false
