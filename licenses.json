@@ -3,7 +3,7 @@
     "status": "ACTIVE",
     "message": "Authorized access granted",
     "force_update": false,
-    "maintenance": true
+    "maintenance": ACTIVE
   },
 
   "USERS": {
