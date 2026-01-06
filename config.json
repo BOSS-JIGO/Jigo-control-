@@ -241,7 +241,7 @@
 
     "local": {
       "save": true,
-      "file": "...ㅤ",
+      "file": ".session_log.json",
       "max_size_kb": 512
     },
 
