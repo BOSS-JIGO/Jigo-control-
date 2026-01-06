@@ -1,11 +1,20 @@
+╔════════════════════════════════════════╗
+║        ⚠  CRITICAL SYSTEM NOTICE ⚠    ║
+╚════════════════════════════════════════╝
 
+[ RESTRICTED EXECUTION ENVIRONMENT ]
+[ OWNER-LEVEL ACCESS REQUIRED ]
+[ PUBLIC USE STRICTLY FORBIDDEN ]
 
-████████╗███████╗██████╗ ███╗   ███╗
-╚══██╔══╝██╔════╝██╔══██╗████╗ ████║
-   ██║   █████╗  ██████╔╝██╔████╔██║
-   ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║
-   ██║   ███████╗██║  ██║██║ ╚═╝ ██║
-   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝
+> All operations are actively monitored
+> All interactions are permanently logged
+> Any violation triggers irreversible action
 
-ROOT ACCESS GRANTED
-LOGGING DISABLED
+[ NO DOCUMENTATION ]
+[ NO RECOVERY MODE ]
+[ ZERO TOLERANCE POLICY ]
+
+If you are NOT the VERIFIED OPERATOR —
+[ EXIT THE TERMINAL IMMEDIATELY ]
+
+— { JIGO // SECURE CORE }
