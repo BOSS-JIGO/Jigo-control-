@@ -8,7 +8,7 @@
   },
 
   "system": {
-    "status": "ban",
+    "status": "ACTIVE",
     "maintenance_mode": false,
     "force_update": false,
 
