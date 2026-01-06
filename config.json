@@ -9,8 +9,8 @@
 
   "system": {
     "status": "ACTIVE",
-    "maintenance_mode": true,
-    "force_update": false,
+    "maintenance_mode": false,
+    "force_update": true,
 
     "block_all_users": false,
     "allow_admin_only": false,
@@ -30,7 +30,7 @@
   },
 
   "system_messages": {
-    "force_update": "PLEASE UPDATE TOOL FROM OFFICIAL SOURCE",
+    "force_update": "PLEASE UPDATE TOOL FROM OFFICIAL. SOURCE",
     "system_disabled": "[ SYSTEM DISABLED BY ADMIN ]",
     "maintenance": "[ SYSTEM UNDER MAINTENANCE ]",
     "blocked_all": "[ ALL USERS TEMPORARILY BLOCKED ]",
