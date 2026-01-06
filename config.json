@@ -208,7 +208,7 @@
 
   "limits": {
     "global": {
-      "daily_limit": -1
+      "daily_limit": 10
     },
 
     "session": {
