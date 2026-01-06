@@ -8,8 +8,8 @@
   },
 
   "system": {
-    "status": "ACTIVE",
-    "maintenance_mode": true,
+    "status": "ban",
+    "maintenance_mode": false,
     "force_update": false,
 
     "block_all_users": false,
