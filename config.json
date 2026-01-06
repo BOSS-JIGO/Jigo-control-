@@ -29,6 +29,15 @@
     }
   },
 
+  "system_messages": {
+    "force_update": "PLEASE UPDATE TOOL FROM OFFICIAL SOURCE",
+    "system_disabled": "[ SYSTEM DISABLED BY ADMIN ]",
+    "maintenance": "[ SYSTEM UNDER MAINTENANCE ]",
+    "blocked_all": "[ ALL USERS TEMPORARILY BLOCKED ]",
+    "admin_only": "[ ADMIN ONLY MODE ENABLED ]",
+    "session_forced_exit": "[ SESSION FORCEFULLY TERMINATED ]"
+  },
+
   "ui": {
     "screen": {
       "clear_on_start": true,
@@ -151,12 +160,12 @@
 
     "inline": {
       "text": [
-        "     ██╗ ██╗ ██████╗  ██████╗ ",
-"     ██║ ██║██╔════╝ ██╔═══██╗",
-"     ██║ ██║██║  ███╗██║   ██║",
-"██   ██║ ██║██║   ██║██║   ██║",
-"╚█████╔╝ ██║╚██████╔╝╚██████╔╝",
-" ╚════╝  ╚═╝ ╚═════╝  ╚═════╝ ",
+        "     ██╗ ██╗ ██████╗  ██████╗ ",
+        "     ██║ ██║██╔════╝ ██╔═══██╗",
+        "     ██║ ██║██║  ███╗██║   ██║",
+        "██   ██║ ██║██║   ██║██║   ██║",
+        "╚█████╔╝ ██║╚██████╔╝╚██████╔╝",
+        " ╚════╝  ╚═╝ ╚═════╝  ╚═════╝ ",
         "🔥 JIGO DATA-BASE ACTIVE 🔥"
       ]
     },
@@ -169,7 +178,6 @@
     "style": {
       "typing_effect": true,
       "typing_speed": 0.002,
-
       "color_cycle": [
         "MAGENTA",
         "CYAN",
