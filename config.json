@@ -1,1 +1,261 @@
+{
+  "__meta__": {
+    "config_version": "1.0.0",
+    "author": "JIGO",
+    "description": "JIGO DATA-BASE – Ultimate Remote Config",
+    "last_updated": "AUTO",
+    "safe_defaults": true
+  },
 
+  "system": {
+    "status": "ACTIVE",
+    "maintenance_mode": false,
+    "force_update": false,
+
+    "block_all_users": false,
+    "allow_admin_only": false,
+
+    "runtime": {
+      "max_runtime_minutes": -1,
+      "welcome_delay": 1,
+      "exit_delay": 1
+    },
+
+    "visibility": {
+      "show_banner": true,
+      "show_animation": true,
+      "show_status_lines": true,
+      "force_exit_message": true
+    }
+  },
+
+  "ui": {
+    "screen": {
+      "clear_on_start": true,
+      "clear_on_exit": true
+    },
+
+    "typing": {
+      "enabled": true,
+      "speed": 0.002
+    },
+
+    "display": {
+      "show_timestamps": true,
+      "emoji_mode": true,
+      "icon_prefix": {
+        "info": "ℹ",
+        "success": "✔",
+        "warning": "⚠",
+        "error": "✖"
+      }
+    },
+
+    "colors": {
+      "global": {
+        "title": ["MAGENTA", "CYAN"],
+        "key": ["CYAN"],
+        "value": ["LIGHTGREEN_EX"],
+        "info": ["GREEN"],
+        "warning": ["YELLOW"],
+        "error": ["RED"],
+        "dim": ["LIGHTBLACK_EX"]
+      },
+
+      "__note__": "Fallback color system (used if colors_advanced is disabled)"
+    },
+
+    "colors_advanced": {
+      "__how_to_use__": {
+        "banner": "Controls ASCII banner colors",
+        "banner_text": "Controls text under banner",
+        "title": "Main section titles",
+        "key": "JSON keys / labels",
+        "value": "JSON values / results",
+        "info": "Normal info messages",
+        "warning": "Warnings",
+        "error": "Errors",
+        "animation_stream": "Random hacker animation lines",
+        "status_lines": "Animation status messages",
+        "timestamp": "Time display",
+        "exit_message": "Exit / goodbye text"
+      },
+
+      "banner": {
+        "mode": "cycle",
+        "colors": ["MAGENTA", "CYAN", "LIGHTBLUE_EX"]
+      },
+
+      "banner_text": {
+        "mode": "single",
+        "colors": ["LIGHTGREEN_EX"]
+      },
+
+      "title": {
+        "mode": "cycle",
+        "colors": ["MAGENTA", "LIGHTMAGENTA_EX"]
+      },
+
+      "key": {
+        "mode": "single",
+        "colors": ["CYAN"]
+      },
+
+      "value": {
+        "mode": "single",
+        "colors": ["LIGHTGREEN_EX"]
+      },
+
+      "info": {
+        "mode": "single",
+        "colors": ["GREEN"]
+      },
+
+      "warning": {
+        "mode": "single",
+        "colors": ["YELLOW"]
+      },
+
+      "error": {
+        "mode": "single",
+        "colors": ["RED"]
+      },
+
+      "animation_stream": {
+        "mode": "random",
+        "colors": ["GREEN", "CYAN", "MAGENTA"]
+      },
+
+      "status_lines": {
+        "mode": "cycle",
+        "colors": ["LIGHTCYAN_EX", "LIGHTMAGENTA_EX"]
+      },
+
+      "timestamp": {
+        "mode": "single",
+        "colors": ["LIGHTBLACK_EX"]
+      },
+
+      "exit_message": {
+        "mode": "single",
+        "colors": ["MAGENTA"]
+      }
+    }
+  },
+
+  "banner": {
+    "enabled": true,
+
+    "mode": "INLINE",
+    "__modes__": ["INLINE", "REMOTE", "DISABLED"],
+
+    "inline": {
+      "text": [
+        "█████╗ ██╗      █████╗ ███╗   ███╗",
+        "██╔══██╗██║     ██╔══██╗████╗ ████║",
+        "███████║██║     ███████║██╔████╔██║",
+        "██╔══██║██║     ██╔══██║██║╚██╔╝██║",
+        "██║  ██║███████╗██║  ██║██║ ╚═╝ ██║",
+        "╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝",
+        "",
+        "🔥 JIGO DATA-BASE ACTIVE 🔥"
+      ]
+    },
+
+    "remote": {
+      "url": "",
+      "fallback_to_inline": true
+    },
+
+    "style": {
+      "typing_effect": true,
+      "typing_speed": 0.002,
+
+      "color_cycle": [
+        "MAGENTA",
+        "CYAN",
+        "LIGHTMAGENTA_EX",
+        "LIGHTCYAN_EX",
+        "LIGHTBLUE_EX"
+      ]
+    }
+  },
+
+  "animation": {
+    "enabled": true,
+
+    "profile": "HACKER",
+    "__profiles__": ["HACKER", "FAST", "SILENT", "CUSTOM"],
+
+    "settings": {
+      "duration": 15,
+      "speed": 0.06,
+      "random_length": 90,
+      "random_charset": "01#@$%&*ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+    },
+
+    "status_lines": {
+      "enabled": true,
+      "lines": [
+        "Decrypting memory sectors",
+        "Injecting shadow payload",
+        "Bypassing security layer",
+        "Masking device fingerprint",
+        "Locking trace vectors",
+        "Extracting encrypted data"
+      ]
+    }
+  },
+
+  "limits": {
+    "global": {
+      "daily_limit": -1
+    },
+
+    "session": {
+      "per_session_limit": -1,
+      "cooldown_seconds": 0
+    },
+
+    "security": {
+      "max_invalid_attempts": 5,
+      "auto_block": false
+    }
+  },
+
+  "features": {
+    "qr_device_id": true,
+    "clipboard_copy": true,
+    "colored_json_output": true,
+    "pretty_json_indent": 2
+  },
+
+  "messages": {
+    "welcome": "WELCOME AUTHORIZED USER",
+    "owner_message": "SYSTEM ONLINE",
+    "exit": "SESSION CLOSED – POWERED BY JIGO",
+    "blocked": "ACCESS DENIED – CONTACT ADMIN"
+  },
+
+  "logging": {
+    "enabled": true,
+
+    "local": {
+      "save": true,
+      "file": "...ㅤ",
+      "max_size_kb": 512
+    },
+
+    "events": {
+      "log_login": true,
+      "log_exit": true,
+      "log_errors": true
+    }
+  },
+
+  "overrides": {
+    "__note__": "Future user-wise or admin-only overrides",
+    "users": {},
+    "admins": {}
+  }
+}
