@@ -1,8 +1,8 @@
 {
   "__meta__": {
-    "config_version": "1.0.0",
+    "config_version": "1.1.0",
     "author": "JIGO",
-    "description": "JIGO DATA-BASE – Ultimate Remote Config",
+    "description": "JIGO DATA-BASE – FINAL CLEAN COLOR SYSTEM (FULL)",
     "last_updated": "AUTO",
     "safe_defaults": true
   },
@@ -30,12 +30,19 @@
   },
 
   "system_messages": {
-    "force_update": "PLEASE UPDATE TOOL FROM OFFICIAL. SOURCE",
+    "force_update": "PLEASE UPDATE TOOL FROM OFFICIAL SOURCE",
     "system_disabled": "[ SYSTEM DISABLED BY ADMIN ]",
     "maintenance": "[ SYSTEM UNDER MAINTENANCE ]",
     "blocked_all": "[ ALL USERS TEMPORARILY BLOCKED ]",
     "admin_only": "[ ADMIN ONLY MODE ENABLED ]",
     "session_forced_exit": "[ SESSION FORCEFULLY TERMINATED ]"
+  },
+
+  "messages": {
+    "welcome": "WELCOME AUTHORIZED USER",
+    "owner_message": "SYSTEM ONLINE",
+    "exit": "SESSION CLOSED – POWERED BY JIGO",
+    "blocked": "ACCESS DENIED – CONTACT ADMIN"
   },
 
   "ui": {
@@ -65,7 +72,7 @@
         "title": ["MAGENTA", "CYAN"],
         "key": ["CYAN"],
         "value": ["LIGHTGREEN_EX"],
-        "info": ["YELLOW"],
+        "info": ["GREEN"],
         "warning": ["YELLOW"],
         "error": ["RED"],
         "dim": ["LIGHTBLACK_EX"]
@@ -75,19 +82,24 @@
     },
 
     "colors_advanced": {
-      "__how_to_use__": {
-        "banner": "Controls ASCII banner colors",
-        "banner_text": "Controls text under banner",
-        "title": "Main section titles",
-        "key": "JSON keys / labels",
-        "value": "JSON values / results",
-        "info": "Normal info messages",
-        "warning": "Warnings",
-        "error": "Errors",
-        "animation_stream": "Random hacker animation lines",
-        "status_lines": "Animation status messages",
-        "timestamp": "Time display",
-        "exit_message": "Exit / goodbye text"
+      "__legend__": {
+        "banner": "ASCII LOGO",
+        "banner_text": "TEXT BELOW BANNER",
+        "title": "HEADINGS / SECTIONS",
+        "key": "JSON KEYS",
+        "value": "JSON VALUES",
+        "info": "NORMAL INFO",
+        "warning": "WARNINGS",
+        "error": "ERRORS",
+        "system_error": "SYSTEM BLOCK / DISABLE / UPDATE",
+        "system_warning": "ADMIN ONLY / SOFT BLOCK",
+        "system_info": "MAINTENANCE MODE",
+        "system_exit": "FORCED SESSION EXIT",
+        "owner_message": "message.txt MESSAGE",
+        "exit_message": "NORMAL EXIT MESSAGE",
+        "animation_stream": "HACKER STREAM",
+        "status_lines": "ANIMATION STATUS",
+        "timestamp": "TIME DISPLAY"
       },
 
       "banner": {
@@ -117,7 +129,7 @@
 
       "info": {
         "mode": "single",
-        "colors": ["YELLOW"]
+        "colors": ["GREEN"]
       },
 
       "warning": {
@@ -128,6 +140,36 @@
       "error": {
         "mode": "single",
         "colors": ["RED"]
+      },
+
+      "system_error": {
+        "mode": "single",
+        "colors": ["RED"]
+      },
+
+      "system_warning": {
+        "mode": "single",
+        "colors": ["YELLOW"]
+      },
+
+      "system_info": {
+        "mode": "single",
+        "colors": ["CYAN"]
+      },
+
+      "system_exit": {
+        "mode": "single",
+        "colors": ["LIGHTRED_EX"]
+      },
+
+      "owner_message": {
+        "mode": "single",
+        "colors": ["LIGHTMAGENTA_EX"]
+      },
+
+      "exit_message": {
+        "mode": "single",
+        "colors": ["MAGENTA"]
       },
 
       "animation_stream": {
@@ -143,18 +185,12 @@
       "timestamp": {
         "mode": "single",
         "colors": ["LIGHTBLACK_EX"]
-      },
-
-      "exit_message": {
-        "mode": "single",
-        "colors": ["MAGENTA"]
       }
     }
   },
 
   "banner": {
     "enabled": true,
-
     "mode": "INLINE",
     "__modes__": ["INLINE", "REMOTE", "DISABLED"],
 
@@ -190,7 +226,6 @@
 
   "animation": {
     "enabled": true,
-
     "profile": "HACKER",
     "__profiles__": ["HACKER", "FAST", "SILENT", "CUSTOM"],
 
@@ -237,22 +272,13 @@
     "pretty_json_indent": 2
   },
 
-  "messages": {
-    "welcome": "WELCOME AUTHORIZED USER",
-    "owner_message": "SYSTEM ONLINE",
-    "exit": "SESSION CLOSED – POWERED BY JIGO",
-    "blocked": "ACCESS DENIED – CONTACT ADMIN"
-  },
-
   "logging": {
     "enabled": true,
-
     "local": {
       "save": true,
       "file": ".session_log.json",
       "max_size_kb": 512
     },
-
     "events": {
       "log_login": true,
       "log_exit": true,
