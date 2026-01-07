@@ -11,7 +11,7 @@
       "owner": true,
       "name": "JIGO",
       "expiry": "2099-12-31",
-      "max_search": 10,
+      "max_search": 12,
       "status": "ACTIVE",
       "license_key": "ADMIN",
       "device_id": "NEEDED",
@@ -36,7 +36,7 @@
       "max_search": 11,
       "status": "ACTIVE",
       "license_key": "JIGO-MUZAIN-0X9Y",
-      "device_id": "5c7c8916cbbeb246aef097d1b6822d1dcf4d14a6e31804a4ea2d79af2868b99c",
+      "device_id": "",
       "reason": "MANUAL_ACCESS",
       "notes": "ACCESS PERMITTED"
     },
