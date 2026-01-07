@@ -272,20 +272,6 @@
     "pretty_json_indent": 2
   },
 
-  "logging": {
-    "enabled": true,
-    "local": {
-      "save": true,
-      "file": ".session_log.json",
-      "max_size_kb": 1024
-    },
-    "events": {
-      "log_login": true,
-      "log_exit": true,
-      "log_errors": true
-    }
-  },
-
   "overrides": {
     "__note__": "Future user-wise or admin-only overrides",
     "users": {},
