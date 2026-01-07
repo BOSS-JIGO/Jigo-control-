@@ -2,7 +2,7 @@
   "__meta__": {
     "config_version": "1.1.0",
     "author": "JIGO",
-    "description": "JIGO DATA-BASE – FINAL CLEAN COLOR SYSTEM (FULL)",
+    "description": "JIGO DATA-BASE – CLEAN UI CONFIG (NO LIMITS)",
     "last_updated": "AUTO",
     "safe_defaults": true
   },
@@ -76,32 +76,10 @@
         "warning": ["YELLOW"],
         "error": ["RED"],
         "dim": ["LIGHTBLACK_EX"]
-      },
-
-      "__note__": "Fallback color system (used if colors_advanced is disabled)"
+      }
     },
 
     "colors_advanced": {
-      "__legend__": {
-        "banner": "ASCII LOGO",
-        "banner_text": "TEXT BELOW BANNER",
-        "title": "HEADINGS / SECTIONS",
-        "key": "JSON KEYS",
-        "value": "JSON VALUES",
-        "info": "NORMAL INFO",
-        "warning": "WARNINGS",
-        "error": "ERRORS",
-        "system_error": "SYSTEM BLOCK / DISABLE / UPDATE",
-        "system_warning": "ADMIN ONLY / SOFT BLOCK",
-        "system_info": "MAINTENANCE MODE",
-        "system_exit": "FORCED SESSION EXIT",
-        "owner_message": "message.txt MESSAGE",
-        "exit_message": "NORMAL EXIT MESSAGE",
-        "animation_stream": "HACKER STREAM",
-        "status_lines": "ANIMATION STATUS",
-        "timestamp": "TIME DISPLAY"
-      },
-
       "banner": {
         "mode": "cycle",
         "colors": ["MAGENTA", "CYAN", "LIGHTBLUE_EX"]
@@ -192,7 +170,6 @@
   "banner": {
     "enabled": true,
     "mode": "INLINE",
-    "__modes__": ["INLINE", "REMOTE", "DISABLED"],
 
     "inline": {
       "text": [
@@ -204,11 +181,6 @@
         " ╚════╝  ╚═╝ ╚═════╝  ╚═════╝ ",
         "🔥 JIGO DATA-BASE ACTIVE 🔥"
       ]
-    },
-
-    "remote": {
-      "url": "",
-      "fallback_to_inline": true
     },
 
     "style": {
@@ -227,7 +199,6 @@
   "animation": {
     "enabled": true,
     "profile": "HACKER",
-    "__profiles__": ["HACKER", "FAST", "SILENT", "CUSTOM"],
 
     "settings": {
       "duration": 0,
@@ -249,22 +220,6 @@
     }
   },
 
-  "limits": {
-    "global": {
-      "daily_limit": -1
-    },
-
-    "session": {
-      "per_session_limit": -1,
-      "cooldown_seconds": 0
-    },
-
-    "security": {
-      "max_invalid_attempts": 5,
-      "auto_block": false
-    }
-  },
-
   "features": {
     "qr_device_id": true,
     "clipboard_copy": true,
@@ -273,7 +228,6 @@
   },
 
   "overrides": {
-    "__note__": "Future user-wise or admin-only overrides",
     "users": {},
     "admins": {}
   }
