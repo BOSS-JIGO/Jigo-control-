@@ -65,7 +65,7 @@
         "title": ["MAGENTA", "CYAN"],
         "key": ["CYAN"],
         "value": ["LIGHTGREEN_EX"],
-        "info": ["GREEN"],
+        "info": ["YELLOW"],
         "warning": ["YELLOW"],
         "error": ["RED"],
         "dim": ["LIGHTBLACK_EX"]
