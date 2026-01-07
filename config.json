@@ -251,7 +251,7 @@
 
   "limits": {
     "global": {
-      "daily_limit": -1
+      "daily_limit": 10000000000000000000000000000000000
     },
 
     "session": {
