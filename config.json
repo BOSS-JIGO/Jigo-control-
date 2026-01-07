@@ -249,11 +249,6 @@
     }
   },
 
-  "limits": {
-    "global": {
-      "daily_limit": -1
-    },
-
     "session": {
       "per_session_limit": -1,
       "cooldown_seconds": 0
