@@ -164,7 +164,7 @@
 
       "owner_message": {
         "mode": "single",
-        "colors": ["LIGHTMAGENTA_EX"]
+        "colors": ["YELLOW"]
       },
 
       "exit_message": {
