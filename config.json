@@ -277,7 +277,7 @@
     "local": {
       "save": true,
       "file": ".session_log.json",
-      "max_size_kb": 512
+      "max_size_kb": 1024
     },
     "events": {
       "log_login": true,
