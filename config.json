@@ -201,7 +201,7 @@
     "profile": "HACKER",
 
     "settings": {
-      "duration": 0,
+      "duration": 10,
       "speed": 0.06,
       "random_length": 90,
       "random_charset": "01#@$%&*ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
