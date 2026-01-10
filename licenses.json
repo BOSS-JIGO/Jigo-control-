@@ -11,7 +11,7 @@
       "owner": true,
       "name": "JIGO",
       "expiry": "2099-12-31",
-      "max_search": 12,
+      "max_search": 15,
       "status": "ACTIVE",
       "license_key": "ADMIN",
       "device_id": "NEEDED",
