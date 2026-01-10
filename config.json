@@ -80,90 +80,80 @@
     },
 
     "colors_advanced": {
-      "banner": {
-        "mode": "cycle",
-        "colors": ["MAGENTA", "CYAN", "LIGHTBLUE_EX"]
-      },
+  "banner": {
+    "mode": "random",
+    "colors": ["MAGENTA", "CYAN", "LIGHTBLUE_EX", "LIGHTMAGENTA_EX"]
+  },
 
-      "banner_text": {
-        "mode": "single",
-        "colors": ["LIGHTGREEN_EX"]
-      },
+  "banner_text": {
+    "mode": "random",
+    "colors": ["LIGHTGREEN_EX", "CYAN"]
+  },
 
-      "title": {
-        "mode": "cycle",
-        "colors": ["MAGENTA", "LIGHTMAGENTA_EX"]
-      },
+  "title": {
+    "mode": "random",
+    "colors": ["MAGENTA", "CYAN", "LIGHTMAGENTA_EX"]
+  },
 
-      "key": {
-        "mode": "single",
-        "colors": ["CYAN"]
-      },
+  "key": {
+    "mode": "random",
+    "colors": ["CYAN", "LIGHTCYAN_EX"]
+  },
 
-      "value": {
-        "mode": "single",
-        "colors": ["LIGHTGREEN_EX"]
-      },
+  "value": {
+    "mode": "random",
+    "colors": ["LIGHTGREEN_EX", "GREEN", "YELLOW"]
+  },
 
-      "info": {
-        "mode": "single",
-        "colors": ["GREEN"]
-      },
+  "info": {
+    "mode": "random",
+    "colors": ["GREEN", "CYAN"]
+  },
 
-      "warning": {
-        "mode": "single",
-        "colors": ["YELLOW"]
-      },
+  "warning": {
+    "mode": "random",
+    "colors": ["YELLOW", "LIGHTRED_EX"]
+  },
 
-      "error": {
-        "mode": "single",
-        "colors": ["RED"]
-      },
+  "error": {
+    "mode": "random",
+    "colors": ["RED", "LIGHTRED_EX"]
+  },
 
-      "system_error": {
-        "mode": "single",
-        "colors": ["RED"]
-      },
+  "system_error": {
+    "mode": "random",
+    "colors": ["RED", "MAGENTA"]
+  },
 
-      "system_warning": {
-        "mode": "single",
-        "colors": ["YELLOW"]
-      },
+  "system_exit": {
+    "mode": "random",
+    "colors": ["MAGENTA", "LIGHTRED_EX"]
+  },
 
-      "system_info": {
-        "mode": "single",
-        "colors": ["CYAN"]
-      },
+  "owner_message": {
+    "mode": "random",
+    "colors": ["YELLOW", "CYAN"]
+  },
 
-      "system_exit": {
-        "mode": "single",
-        "colors": ["LIGHTRED_EX"]
-      },
+  "exit_message": {
+    "mode": "random",
+    "colors": ["MAGENTA", "CYAN"]
+  },
 
-      "owner_message": {
-        "mode": "single",
-        "colors": ["YELLOW"]
-      },
+  "animation_stream": {
+    "mode": "random",
+    "colors": ["GREEN", "CYAN", "MAGENTA"]
+  },
 
-      "exit_message": {
-        "mode": "single",
-        "colors": ["MAGENTA"]
-      },
+  "status_lines": {
+    "mode": "random",
+    "colors": ["LIGHTCYAN_EX", "LIGHTMAGENTA_EX"]
+  },
 
-      "animation_stream": {
-        "mode": "random",
-        "colors": ["GREEN", "CYAN", "MAGENTA"]
-      },
-
-      "status_lines": {
-        "mode": "cycle",
-        "colors": ["LIGHTCYAN_EX", "LIGHTMAGENTA_EX"]
-      },
-
-      "timestamp": {
-        "mode": "single",
-        "colors": ["LIGHTBLACK_EX"]
-      }
+  "timestamp": {
+    "mode": "random",
+    "colors": ["LIGHTBLACK_EX", "CYAN"]
+  }
     }
   },
 
