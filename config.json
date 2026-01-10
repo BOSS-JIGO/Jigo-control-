@@ -67,92 +67,90 @@
       }
     },
 
-    "colors": {
-      "global": {
-        "title": ["MAGENTA", "CYAN"],
-        "key": ["CYAN"],
-        "value": ["LIGHTGREEN_EX"],
-        "info": ["GREEN"],
-        "warning": ["YELLOW"],
-        "error": ["RED"],
-        "dim": ["LIGHTBLACK_EX"]
-      }
-    },
-
     "colors_advanced": {
   "banner": {
-    "mode": "random",
+    "mode": "cycle",
     "colors": ["MAGENTA", "CYAN", "LIGHTBLUE_EX", "LIGHTMAGENTA_EX"]
   },
 
   "banner_text": {
-    "mode": "random",
-    "colors": ["LIGHTGREEN_EX", "CYAN"]
+    "mode": "cycle",
+    "colors": ["LIGHTGREEN_EX", "CYAN", "GREEN"]
   },
 
   "title": {
-    "mode": "random",
-    "colors": ["MAGENTA", "CYAN", "LIGHTMAGENTA_EX"]
+    "mode": "cycle",
+    "colors": ["MAGENTA", "LIGHTMAGENTA_EX", "CYAN"]
   },
 
   "key": {
-    "mode": "random",
-    "colors": ["CYAN", "LIGHTCYAN_EX"]
+    "mode": "cycle",
+    "colors": ["CYAN", "LIGHTCYAN_EX", "LIGHTBLUE_EX"]
   },
 
   "value": {
-    "mode": "random",
-    "colors": ["LIGHTGREEN_EX", "GREEN", "YELLOW"]
+    "mode": "cycle",
+    "colors": ["LIGHTGREEN_EX", "GREEN", "LIGHTYELLOW_EX"]
   },
 
   "info": {
-    "mode": "random",
-    "colors": ["GREEN", "CYAN"]
+    "mode": "cycle",
+    "colors": ["GREEN", "CYAN", "LIGHTGREEN_EX"]
   },
 
   "warning": {
-    "mode": "random",
-    "colors": ["YELLOW", "LIGHTRED_EX"]
+    "mode": "cycle",
+    "colors": ["YELLOW", "LIGHTYELLOW_EX"]
   },
 
   "error": {
-    "mode": "random",
+    "mode": "cycle",
     "colors": ["RED", "LIGHTRED_EX"]
   },
 
   "system_error": {
     "mode": "random",
-    "colors": ["RED", "MAGENTA"]
+    "colors": ["RED", "LIGHTRED_EX", "MAGENTA"]
+  },
+
+  "system_warning": {
+    "mode": "random",
+    "colors": ["YELLOW", "LIGHTYELLOW_EX", "CYAN"]
+  },
+
+  "system_info": {
+    "mode": "cycle",
+    "colors": ["CYAN", "LIGHTCYAN_EX", "GREEN"]
   },
 
   "system_exit": {
-    "mode": "random",
-    "colors": ["MAGENTA", "LIGHTRED_EX"]
+    "mode": "cycle",
+    "colors": ["MAGENTA", "LIGHTMAGENTA_EX", "RED"]
   },
 
   "owner_message": {
-    "mode": "random",
-    "colors": ["YELLOW", "CYAN"]
+    "mode": "cycle",
+    "colors": ["LIGHTBLUE_EX", "CYAN", "MAGENTA"]
   },
 
   "exit_message": {
-    "mode": "random",
-    "colors": ["MAGENTA", "CYAN"]
+    "mode": "cycle",
+    "colors": ["MAGENTA", "LIGHTMAGENTA_EX", "CYAN"]
   },
 
   "animation_stream": {
     "mode": "random",
-    "colors": ["GREEN", "CYAN", "MAGENTA"]
+    "colors": ["GREEN", "CYAN", "MAGENTA", "LIGHTGREEN_EX"]
   },
 
   "status_lines": {
     "mode": "random",
-    "colors": ["LIGHTCYAN_EX", "LIGHTMAGENTA_EX"]
+    "colors": ["LIGHTCYAN_EX", "LIGHTMAGENTA_EX", "LIGHTGREEN_EX"]
   },
 
   "timestamp": {
-    "mode": "random",
-    "colors": ["LIGHTBLACK_EX", "CYAN"]
+    "mode": "cycle",
+    "colors": ["LIGHTBLACK_EX", "WHITE"]
   }
     }
   },
