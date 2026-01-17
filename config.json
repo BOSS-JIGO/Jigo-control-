@@ -9,7 +9,7 @@
 
   "system": {
     "status": "ACTIVE",
-    "maintenance_mode": false,
+    "maintenance_mode": true,
     "force_update": false,
 
     "block_all_users": false,
