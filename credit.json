@@ -3,5 +3,11 @@
   "telegram": "@JIGO_XYZ",
   "instagram": "ur_jigo_.1x",
   "credit_text": "🔥 Private Build",
-  "show_credit": true
+  "show_credit": true,
+
+  "actions": {
+    "Instagram": "https://instagram.com/ur_jigo_.1x",
+    "Telegram": "https://t.me/JIGO_XYZ",
+    "Support": "https://wa.me/+1 5489615736"
+  }
 }
