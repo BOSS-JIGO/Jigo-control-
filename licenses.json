@@ -3,9 +3,8 @@
     "status": "ACTIVE",
     "message": "Authorized access granted",
     "force_update": false,
-    "maintenance":  false
+    "maintenance": false
   },
-
   "USERS": {
     "JIGO-ADMIN-001": {
       "owner": true,
@@ -15,41 +14,908 @@
       "status": "ACTIVE",
       "license_key": "ADMIN",
       "device_id": "NEEDED",
-      "notes": "SUPER ADMIN – UNLIMITED ACCESS"
+      "notes": "SUPER ADMIN \u2013 UNLIMITED ACCESS"
     },
-
-    "USER-001": {
+    "USER-011": {
       "owner": false,
-      "name": "ALAM",
+      "name": "USER11",
       "expiry": "2099-12-31",
       "max_search": 100,
       "status": "ACTIVE",
-      "license_key": "@speed",
+      "license_key": "KEY-011",
       "device_id": "",
-      "notes": "YOUR DEVICE HAS BEEN BINDED"
+      "notes": "STANDARD USER"
     },
-
-    "USER-002": {
+    "USER-012": {
       "owner": false,
-      "name": "SHARMA JI",
-      "expiry": "2029-12-31",
-      "max_search": 2,
+      "name": "USER12",
+      "expiry": "2099-12-31",
+      "max_search": 100,
       "status": "ACTIVE",
-      "license_key": "sh",
-      "device_id": "ffac7583faca3de18f61597992b27a586deedc4a94c590078c59e3a8871d5f42",
-      "reason": "MANUAL_ACCESS",
-      "notes": "ACCESS PERMITTED"
+      "license_key": "KEY-012",
+      "device_id": "",
+      "notes": "STANDARD USER"
     },
-
-    "USER-003": {
+    "USER-013": {
       "owner": false,
-      "name": "RAHUL",
-      "expiry": "2026-11-30",
-      "max_search": 3,
+      "name": "USER13",
+      "expiry": "2099-12-31",
+      "max_search": 100,
       "status": "ACTIVE",
-      "license_key": "JIGO-RAHUL-93XZ",
+      "license_key": "KEY-013",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-014": {
+      "owner": false,
+      "name": "USER14",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-014",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-015": {
+      "owner": false,
+      "name": "USER15",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-015",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-016": {
+      "owner": false,
+      "name": "USER16",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-016",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-017": {
+      "owner": false,
+      "name": "USER17",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-017",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-018": {
+      "owner": false,
+      "name": "USER18",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-018",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-019": {
+      "owner": false,
+      "name": "USER19",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-019",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-020": {
+      "owner": false,
+      "name": "USER20",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-020",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-021": {
+      "owner": false,
+      "name": "USER21",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-021",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-022": {
+      "owner": false,
+      "name": "USER22",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-022",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-023": {
+      "owner": false,
+      "name": "USER23",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-023",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-024": {
+      "owner": false,
+      "name": "USER24",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-024",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-025": {
+      "owner": false,
+      "name": "USER25",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-025",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-026": {
+      "owner": false,
+      "name": "USER26",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-026",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-027": {
+      "owner": false,
+      "name": "USER27",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-027",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-028": {
+      "owner": false,
+      "name": "USER28",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-028",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-029": {
+      "owner": false,
+      "name": "USER29",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-029",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-030": {
+      "owner": false,
+      "name": "USER30",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-030",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-031": {
+      "owner": false,
+      "name": "USER31",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-031",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-032": {
+      "owner": false,
+      "name": "USER32",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-032",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-033": {
+      "owner": false,
+      "name": "USER33",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-033",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-034": {
+      "owner": false,
+      "name": "USER34",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-034",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-035": {
+      "owner": false,
+      "name": "USER35",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-035",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-036": {
+      "owner": false,
+      "name": "USER36",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-036",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-037": {
+      "owner": false,
+      "name": "USER37",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-037",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-038": {
+      "owner": false,
+      "name": "USER38",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-038",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-039": {
+      "owner": false,
+      "name": "USER39",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-039",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-040": {
+      "owner": false,
+      "name": "USER40",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-040",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-041": {
+      "owner": false,
+      "name": "USER41",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-041",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-042": {
+      "owner": false,
+      "name": "USER42",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-042",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-043": {
+      "owner": false,
+      "name": "USER43",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-043",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-044": {
+      "owner": false,
+      "name": "USER44",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-044",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-045": {
+      "owner": false,
+      "name": "USER45",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-045",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-046": {
+      "owner": false,
+      "name": "USER46",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-046",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-047": {
+      "owner": false,
+      "name": "USER47",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-047",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-048": {
+      "owner": false,
+      "name": "USER48",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-048",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-049": {
+      "owner": false,
+      "name": "USER49",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-049",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-050": {
+      "owner": false,
+      "name": "USER50",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-050",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-051": {
+      "owner": false,
+      "name": "USER51",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-051",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-052": {
+      "owner": false,
+      "name": "USER52",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-052",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-053": {
+      "owner": false,
+      "name": "USER53",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-053",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-054": {
+      "owner": false,
+      "name": "USER54",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-054",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-055": {
+      "owner": false,
+      "name": "USER55",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-055",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-056": {
+      "owner": false,
+      "name": "USER56",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-056",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-057": {
+      "owner": false,
+      "name": "USER57",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-057",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-058": {
+      "owner": false,
+      "name": "USER58",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-058",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-059": {
+      "owner": false,
+      "name": "USER59",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-059",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-060": {
+      "owner": false,
+      "name": "USER60",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-060",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-061": {
+      "owner": false,
+      "name": "USER61",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-061",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-062": {
+      "owner": false,
+      "name": "USER62",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-062",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-063": {
+      "owner": false,
+      "name": "USER63",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-063",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-064": {
+      "owner": false,
+      "name": "USER64",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-064",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-065": {
+      "owner": false,
+      "name": "USER65",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-065",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-066": {
+      "owner": false,
+      "name": "USER66",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-066",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-067": {
+      "owner": false,
+      "name": "USER67",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-067",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-068": {
+      "owner": false,
+      "name": "USER68",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-068",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-069": {
+      "owner": false,
+      "name": "USER69",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-069",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-070": {
+      "owner": false,
+      "name": "USER70",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-070",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-071": {
+      "owner": false,
+      "name": "USER71",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-071",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-072": {
+      "owner": false,
+      "name": "USER72",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-072",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-073": {
+      "owner": false,
+      "name": "USER73",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-073",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-074": {
+      "owner": false,
+      "name": "USER74",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-074",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-075": {
+      "owner": false,
+      "name": "USER75",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-075",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-076": {
+      "owner": false,
+      "name": "USER76",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-076",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-077": {
+      "owner": false,
+      "name": "USER77",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-077",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-078": {
+      "owner": false,
+      "name": "USER78",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-078",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-079": {
+      "owner": false,
+      "name": "USER79",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-079",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-080": {
+      "owner": false,
+      "name": "USER80",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-080",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-081": {
+      "owner": false,
+      "name": "USER81",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-081",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-082": {
+      "owner": false,
+      "name": "USER82",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-082",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-083": {
+      "owner": false,
+      "name": "USER83",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-083",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-084": {
+      "owner": false,
+      "name": "USER84",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-084",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-085": {
+      "owner": false,
+      "name": "USER85",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-085",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-086": {
+      "owner": false,
+      "name": "USER86",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-086",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-087": {
+      "owner": false,
+      "name": "USER87",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-087",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-088": {
+      "owner": false,
+      "name": "USER88",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-088",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-089": {
+      "owner": false,
+      "name": "USER89",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-089",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-090": {
+      "owner": false,
+      "name": "USER90",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-090",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-091": {
+      "owner": false,
+      "name": "USER91",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-091",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-092": {
+      "owner": false,
+      "name": "USER92",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-092",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-093": {
+      "owner": false,
+      "name": "USER93",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-093",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-094": {
+      "owner": false,
+      "name": "USER94",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-094",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-095": {
+      "owner": false,
+      "name": "USER95",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-095",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-096": {
+      "owner": false,
+      "name": "USER96",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-096",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-097": {
+      "owner": false,
+      "name": "USER97",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-097",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-098": {
+      "owner": false,
+      "name": "USER98",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-098",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-099": {
+      "owner": false,
+      "name": "USER99",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-099",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-100": {
+      "owner": false,
+      "name": "USER100",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-100",
       "device_id": "",
       "notes": "STANDARD USER"
     }
   }
 }
+      
