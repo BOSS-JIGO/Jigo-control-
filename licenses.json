@@ -33,7 +33,7 @@
       "max_search": 7,
       "status": "ACTIVE",
       "license_key": "sh",
-      "device_id": "",
+      "device_id": "ffac7583faca3de18f61597992b27a586deedc4a94c590078c59e3a8871d5f42",
       "notes": "FREE-USER"
     },
     "USER-04": {
@@ -42,7 +42,7 @@
       "expiry": "2099-12-31",
       "max_search": 100,
       "status": "ACTIVE",
-      "license_key": " ",
+      "license_key": "j",
       "device_id": "",
       "notes": "STANDARD USER"
     },
