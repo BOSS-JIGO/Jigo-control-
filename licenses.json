@@ -16,6 +16,96 @@
       "device_id": "NEEDED",
       "notes": "SUPER ADMIN \u2013 UNLIMITED ACCESS"
     },
+    "USER-02": {
+      "owner": false,
+      "name": "USER12",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-02",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-03": {
+      "owner": false,
+      "name": "SHARMA-JI",
+      "expiry": "2099-12-31",
+      "max_search": 5,
+      "status": "ACTIVE",
+      "license_key": "sh",
+      "device_id": "",
+      "notes": "FREE-USER"
+    },
+    "USER-04": {
+      "owner": false,
+      "name": "USER4",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-04",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-05": {
+      "owner": false,
+      "name": "USER5",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-05",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-06": {
+      "owner": false,
+      "name": "USER6",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-06",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-07": {
+      "owner": false,
+      "name": "USER7",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-07",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-08": {
+      "owner": false,
+      "name": "USER8",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-08",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-09": {
+      "owner": false,
+      "name": "USER9",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-09",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
+    "USER-010": {
+      "owner": false,
+      "name": "USER10",
+      "expiry": "2099-12-31",
+      "max_search": 100,
+      "status": "ACTIVE",
+      "license_key": "KEY-010",
+      "device_id": "",
+      "notes": "STANDARD USER"
+    },
     "USER-011": {
       "owner": false,
       "name": "USER11",
