@@ -42,7 +42,8 @@
     "welcome": "WELCOME AUTHORIZED USER",
     "owner_message": "SYSTEM ONLINE",
     "exit": "SESSION CLOSED – POWERED BY JIGO",
-    "blocked": "ACCESS DENIED – CONTACT ADMIN"
+    "blocked": "NEW VERSION AVAILABLE — UPDATE REQUIRED
+     CONTACT ADMIN TO GET THE LATEST VERSION"
   },
 
   "ui": {
