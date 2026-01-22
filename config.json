@@ -185,7 +185,7 @@
   },
 
   "animation": {
-    "enabled": false,
+    "enabled": true,
     "profile": "HACKER",
 
     "settings": {
@@ -196,7 +196,7 @@
     },
 
     "status_lines": {
-      "enabled": false,
+      "enabled": true,
       "lines": [
         "Decrypting memory sectors",
         "Injecting shadow payload",
