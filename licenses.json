@@ -30,7 +30,7 @@
       "owner": false,
       "name": "SHARMA-JI",
       "expiry": "2099-12-31",
-      "max_search": 5,
+      "max_search": 7,
       "status": "ACTIVE",
       "license_key": "sh",
       "device_id": "",
@@ -38,11 +38,11 @@
     },
     "USER-04": {
       "owner": false,
-      "name": "USER4",
+      "name": "JIGØ",
       "expiry": "2099-12-31",
       "max_search": 100,
       "status": "ACTIVE",
-      "license_key": "KEY-04",
+      "license_key": " ",
       "device_id": "",
       "notes": "STANDARD USER"
     },
